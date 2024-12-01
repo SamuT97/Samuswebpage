@@ -1,0 +1,77 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+/* Header styles */
+#header {
+    background-color: #1e90ff; /* Dodger blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main navigation styles */
+#main-nav {
+    background-color: #4682b4; /* Steel blue */
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#main-nav a:hover {
+    color: red; /* Hover effect for main navigation links */
+}
+
+/* Container for third page */
+#container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+/* Vertical navigation styles */
+#vertical-nav {
+    width: 20%;
+    background-color: #87ceeb; /* Sky blue */
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#vertical-nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0;
+}
+
+#vertical-nav a:hover {
+    color: blue;
+}
+
+/* Section styles */
+#section {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e6f7ff; /* Lightest blue */
+}
+
+/* Footer styles */
+#footer {
+    background-color: #4682b4; /* Steel blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
